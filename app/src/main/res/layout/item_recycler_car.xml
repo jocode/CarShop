@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_card_view"
+    android:layout_marginTop="@dimen/activity_md_margin"
+    android:layout_marginHorizontal="@dimen/activity_md_margin">
+
+    <FrameLayout
+        android:id="@+id/car_clickable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/car_picture"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_card_view"
+            android:background="@drawable/electric_car_vector"
+            android:contentDescription="@string/car_image_desc"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/car_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/activity_md_margin"
+            android:text="@string/car_category"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_md_margin"
+            android:background="@color/backgroung_overlay_textcard">
+
+            <TextView
+                android:id="@+id/car_model"
+                android:text="@string/model_car"
+                android:textSize="@dimen/textsize_username_card"
+                style="@style/car_text_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/car_status"
+                    style="@style/car_text_style"
+                    android:text="@string/status_car"
+                    android:textSize="@dimen/firstword_textsize_card"/>
+
+                <TextView
+                    android:id="@+id/car_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:text="@string/price_car"
+                    android:textSize="@dimen/firstword_textsize_card"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/car_date_released"
+                style="@style/car_text_style"
+                android:text="@string/car_date_released"
+                android:textSize="@dimen/firstword_textsize_card"/>
+
+            <TextView
+                android:id="@+id/car_sits"
+                style="@style/car_text_style"
+                android:text="@string/car_sits"
+                android:textSize="@dimen/firstword_textsize_card"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
