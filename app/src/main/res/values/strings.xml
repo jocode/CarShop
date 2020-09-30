@@ -19,4 +19,30 @@
     <string name="car_date_released">20 Sept 2020</string>
     <string name="car_sits">5</string>
     <string name="car_image_desc">Car</string>
+    <string name="title_activity_add_car">AddCarActivity</string>
+    <string name="title_activity_detail_car">Detail Car</string>
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hint_date">Date Released</string>
+    <string name="label_category">Category</string>
+    <string name="btn_save_car">Save Car</string>
+    <string name="label_state">State</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_seats">Seats</string>
+    <string name="car_date_format">29/09/2020</string>
+    <string name="radio_car_new">New</string>
+    <string name="radio_car_used">Used</string>
+    <string name="data_saved">Data save successfully</string>
+    <string name="hint_battery_cap">Battery Capacity</string>
+    <string name="hint_space_cap">Space Capacity</string>
+    <string name="hint_max_payload">Max Avaailable Payload</string>
+    <string name="empty_save_data">You must complete the fields</string>
+    <string name="menu_delete">Detele</string>
+    <string name="title_categories_fragment">Category List</string>
+    <string name="dialog_delete_category">You are going to delete the category</string>
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="msg_delete_default_category">Can\'t delete this category</string>
+    <string name="msg_modify_default_category">Can\'t modify this category</string>
 </resources>

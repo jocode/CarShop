@@ -7,19 +7,14 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.crexative.carshop.ui.home.HomeFragment"
+        android:name="com.crexative.carshop.ui.cars.HomeFragment"
         android:label="@string/title_cars"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.crexative.carshop.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_categories"
+        android:name="com.crexative.carshop.ui.categories.CategoriesFragment"
         android:label="@string/title_categories"
         tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.crexative.carshop.ui.notifications.NotificationsFragment"
-        android:label="@string/title_profile"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>

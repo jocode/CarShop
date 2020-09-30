@@ -7,4 +7,6 @@
     <dimen name="height_card_view">150dp</dimen>
     <dimen name="textsize_username_card">20sp</dimen>
     <dimen name="firstword_textsize_card">15sp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="padding_sm">5dp</dimen>
 </resources>
