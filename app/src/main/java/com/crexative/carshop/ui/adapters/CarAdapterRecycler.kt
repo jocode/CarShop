@@ -63,7 +63,7 @@ class CarAdapterRecycler(
             status.text = car.state
             price.text = "$ " + car.price.toString()
             sits.text = "Date Released: " + car.dateReleased.toString()
-            dateReleased.text = "Sits: " + car.seats.toString()
+            dateReleased.text = "Seats: " + car.seats.toString()
 
             val drawableResource = when (car.category) {
                 0 -> R.drawable.electric_car_vector
